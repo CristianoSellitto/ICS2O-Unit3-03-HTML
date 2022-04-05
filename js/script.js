@@ -9,5 +9,5 @@ function calculate() {
   const radius = parseFloat(document.getElementById("radius").value)
   const answer = ((4 / 3) * Math.PI * (radius ** 3)).toFixed(2)
 
-  document.getElementById("output").innerHTML = "<br><p>The volume of this sphere is " + answer + "cm³</p>"
+  document.getElementById("output").innerHTML = "<br><p>The volume of this sphere is " + answer + " cm³</p>"
 }
